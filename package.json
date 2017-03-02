@@ -1,6 +1,6 @@
 {
   "name": "z-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A padded box for your web application",
   "main": "dist/index.js",
   "minified:main": "dist/index.min.js",
