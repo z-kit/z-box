@@ -1,7 +1,7 @@
-import { test } from 'ava';
+import test from 'ava';
 import Nightmare from 'nightmare';
 
-test('CSS component - default', (t) => {
+test('CSS component - content', (t) => {
   t.plan(1);
   const msg = 'should render the box content';
   const expected = 'Content';
@@ -13,7 +13,7 @@ test('CSS component - default', (t) => {
     .then(actual => t.deepEqual(expected, actual, msg));
 });
 
-test('CSS component - default', (t) => {
+test('CSS component - padding', (t) => {
   t.plan(1);
   const msg = 'should render a padded box';
   const expected = '16px';
